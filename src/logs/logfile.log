@@ -1,0 +1,1484 @@
+INFO    22 Sep 23, 7:39:56: App was setup.
+INFO    22 Sep 23, 7:39:56: Listening in development mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:39:56: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:43:38: App was setup.
+INFO    22 Sep 23, 7:43:38: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 7:43:38: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:44:40: App was setup.
+INFO    22 Sep 23, 7:44:40: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:44:40: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:45:23: App was setup.
+INFO    22 Sep 23, 7:45:23: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:45:23: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:49:02: App was setup.
+INFO    22 Sep 23, 7:49:02: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 7:49:02: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:49:59: undefined
+INFO    22 Sep 23, 7:49:59: App was setup.
+INFO    22 Sep 23, 7:49:59: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 7:49:59: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:51:18: undefined
+INFO    22 Sep 23, 7:51:18: App was setup.
+INFO    22 Sep 23, 7:51:18: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 7:51:18: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:51:42: undefined
+INFO    22 Sep 23, 7:51:42: App was setup.
+INFO    22 Sep 23, 7:51:42: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:51:42: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:52:06: undefined
+INFO    22 Sep 23, 7:52:06: App was setup.
+INFO    22 Sep 23, 7:52:06: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 7:52:06: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:52:31: undefined
+INFO    22 Sep 23, 7:52:31: App was setup.
+INFO    22 Sep 23, 7:52:31: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:52:31: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:55:22: App was setup.
+INFO    22 Sep 23, 7:55:22: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 7:55:23: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 7:55:23: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-22T07:55:22.983Z,
+      createdAt: 2023-09-22T07:55:22.983Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-22 07:55:22.983 +00:00',
+    '2023-09-22 07:55:22.983 +00:00'
+  ]
+}
+INFO    22 Sep 23, 7:55:23: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    22 Sep 23, 7:55:23: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    22 Sep 23, 9:47:24: App was setup.
+INFO    22 Sep 23, 9:47:24: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 9:47:24: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 9:47:24: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-22T09:47:24.237Z,
+      createdAt: 2023-09-22T09:47:24.237Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-22 09:47:24.237 +00:00',
+    '2023-09-22 09:47:24.237 +00:00'
+  ]
+}
+INFO    22 Sep 23, 9:47:24: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    22 Sep 23, 9:47:24: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    22 Sep 23, 10:13:46: App was setup.
+INFO    22 Sep 23, 10:13:46: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    22 Sep 23, 10:13:46: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 10:13:47: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-22T10:13:46.657Z,
+      createdAt: 2023-09-22T10:13:46.657Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-22 10:13:46.657 +00:00',
+    '2023-09-22 10:13:46.657 +00:00'
+  ]
+}
+INFO    22 Sep 23, 10:13:47: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    22 Sep 23, 10:13:47: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    22 Sep 23, 10:14:51: App was setup.
+INFO    22 Sep 23, 10:14:51: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 10:14:51: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 10:14:51: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-22T10:14:51.751Z,
+      createdAt: 2023-09-22T10:14:51.751Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-22 10:14:51.751 +00:00',
+    '2023-09-22 10:14:51.751 +00:00'
+  ]
+}
+INFO    22 Sep 23, 10:14:52: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    22 Sep 23, 10:14:52: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    22 Sep 23, 10:18:47: App was setup.
+INFO    22 Sep 23, 10:18:47: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.3:3001
+INFO    22 Sep 23, 10:18:47: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    22 Sep 23, 10:18:47: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-22T10:18:47.635Z,
+      createdAt: 2023-09-22T10:18:47.635Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-22 10:18:47.635 +00:00',
+    '2023-09-22 10:18:47.635 +00:00'
+  ]
+}
+INFO    22 Sep 23, 10:18:47: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    22 Sep 23, 10:18:47: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    23 Sep 23, 8:36:11: App was setup.
+INFO    23 Sep 23, 8:36:11: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.5:3001
+INFO    23 Sep 23, 8:36:11: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    23 Sep 23, 8:36:12: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-23T08:36:11.826Z,
+      createdAt: 2023-09-23T08:36:11.826Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-23 08:36:11.826 +00:00',
+    '2023-09-23 08:36:11.826 +00:00'
+  ]
+}
+INFO    23 Sep 23, 8:36:12: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    23 Sep 23, 8:36:12: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}
+INFO    23 Sep 23, 8:36:24: App was setup.
+INFO    23 Sep 23, 8:36:24: Listening in test mode at:
+http://localhost:3001
+http://172.19.0.4:3001
+INFO    23 Sep 23, 8:36:24: Executing (default): SELECT 1+1 AS result # {
+  plain: true,
+  raw: true,
+  logging: [Function (anonymous)],
+  type: 'SELECT'
+}
+INFO    23 Sep 23, 8:36:24: Executing (default): INSERT INTO "Users" ("id","name","email","password","isEmailVarified","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","email","password","isEmailVarified","createdAt","updatedAt","deletedAt"; # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  hooks: true,
+  validate: true,
+  fields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  defaultFields: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  returning: true,
+  hasTrigger: undefined,
+  dialect: 'postgres',
+  dialectModule: null,
+  dialectModulePath: null,
+  host: 'sequelize',
+  protocol: 'tcp',
+  define: {},
+  query: {},
+  sync: {},
+  timezone: '+00:00',
+  standardConformingStrings: true,
+  omitNull: false,
+  native: false,
+  replication: false,
+  ssl: undefined,
+  pool: {},
+  quoteIdentifiers: true,
+  retry: { max: 5, match: [ 'SQLITE_BUSY: database is locked' ] },
+  transactionType: 'DEFERRED',
+  isolationLevel: null,
+  databaseVersion: 0,
+  typeValidation: false,
+  benchmark: false,
+  minifyAliases: false,
+  logQueryParameters: false,
+  attributeBehavior: 'throw',
+  database: 'uts',
+  username: 'postgres',
+  password: 'postgres',
+  operatorsAliases: {
+    eq: Symbol(eq),
+    ne: Symbol(ne),
+    gte: Symbol(gte),
+    gt: Symbol(gt),
+    lte: Symbol(lte),
+    lt: Symbol(lt),
+    not: Symbol(not),
+    is: Symbol(is),
+    in: Symbol(in),
+    notIn: Symbol(notIn),
+    like: Symbol(like),
+    notLike: Symbol(notLike),
+    iLike: Symbol(iLike),
+    notILike: Symbol(notILike),
+    startsWith: Symbol(startsWith),
+    endsWith: Symbol(endsWith),
+    substring: Symbol(substring),
+    regexp: Symbol(regexp),
+    notRegexp: Symbol(notRegexp),
+    iRegexp: Symbol(iRegexp),
+    notIRegexp: Symbol(notIRegexp),
+    between: Symbol(between),
+    notBetween: Symbol(notBetween),
+    overlap: Symbol(overlap),
+    contains: Symbol(contains),
+    contained: Symbol(contained),
+    adjacent: Symbol(adjacent),
+    strictLeft: Symbol(strictLeft),
+    strictRight: Symbol(strictRight),
+    noExtendRight: Symbol(noExtendRight),
+    noExtendLeft: Symbol(noExtendLeft),
+    and: Symbol(and),
+    or: Symbol(or),
+    any: Symbol(any),
+    all: Symbol(all),
+    values: Symbol(values),
+    col: Symbol(col),
+    placeholder: Symbol(placeholder),
+    join: Symbol(join),
+    match: Symbol(match)
+  },
+  models: [ '/app/src/infra/db/models' ],
+  type: 'INSERT',
+  instance: User {
+    dataValues: {
+      id: '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+      name: 'test',
+      email: 'test',
+      password: 'test',
+      isEmailVarified: false,
+      updatedAt: 2023-09-23T08:36:24.326Z,
+      createdAt: 2023-09-23T08:36:24.326Z
+    },
+    _previousDataValues: {
+      id: undefined,
+      name: undefined,
+      email: undefined,
+      password: undefined,
+      isEmailVarified: undefined
+    },
+    uniqno: 1,
+    _changed: Set(5) { 'id', 'name', 'email', 'password', 'isEmailVarified' },
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: true
+  },
+  model: User,
+  bind: [
+    '9e9287d9-c12d-4e31-906e-f9afffa0bffa',
+    'test',
+    'test',
+    'test',
+    false,
+    '2023-09-23 08:36:24.326 +00:00',
+    '2023-09-23 08:36:24.326 +00:00'
+  ]
+}
+INFO    23 Sep 23, 8:36:24: Executing (default): SELECT "id", "name", "email", "password", "isEmailVarified", "createdAt", "updatedAt", "deletedAt" FROM "Users" AS "User" WHERE ("User"."deletedAt" IS NULL AND "User"."email" = 'test') LIMIT 1; # {
+  plain: true,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: `("User"."deletedAt" IS NULL AND "User"."email" = 'test')`,
+  limit: 1,
+  hooks: true,
+  rejectOnEmpty: false,
+  originalAttributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  attributes: [
+    'id',
+    'name',
+    'email',
+    'password',
+    'isEmailVarified',
+    'createdAt',
+    'updatedAt',
+    'deletedAt'
+  ],
+  tableNames: [ 'Users' ],
+  type: 'SELECT',
+  model: User
+}
+INFO    23 Sep 23, 8:36:24: Executing (default): DELETE FROM "Users" WHERE "email" = 'test' # {
+  plain: false,
+  raw: false,
+  logging: [Function (anonymous)],
+  where: { email: 'test' },
+  force: true,
+  hooks: true,
+  individualHooks: false,
+  cascade: false,
+  restartIdentity: false,
+  type: 'BULKDELETE',
+  model: User,
+  limit: null
+}

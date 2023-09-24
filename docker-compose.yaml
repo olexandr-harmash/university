@@ -1,0 +1,86 @@
+version: '3'
+
+services:
+  # Сервис API
+  api:
+    image: node:18-alpine
+    container_name: uts-node
+    build: .
+    ports:
+      - 3001:3001
+    environment:
+      - NODE_ENV=test
+      - NODE_PORT=3200
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: npm run start:dev
+    links:
+      - sequelize
+    networks:
+      - utsnet
+  
+  # TODO: dev variant with nodemon
+  # Сервис UI
+  ui:
+    container_name: uts-client
+    build: 
+      context: ui
+      target: production
+    ports:
+      - 3000:80
+    working_dir: /app
+    volumes:
+      - ./ui:/app
+    links:
+      - api
+    depends_on:
+      - api
+    networks:
+      - utsnet
+    
+
+  sequelize:
+    container_name: uts-sequelize
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      PGDATA: /var/lib/postgresql/data/uts
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: uts
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - utsnet
+    healthcheck:
+      test: ["CMD", "ping", "-c", "4", "sequelize:8080"]
+      interval: 5s
+      timeout: 5s
+      retries: 2
+
+  adminer:
+    container_name: uts-adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - sequelize
+    networks:
+      - utsnet
+
+  redis:
+    container_name: uts-redis
+    image: redis:latest
+    ports:
+      - 6379:6379
+    networks:
+      - utsnet
+
+volumes: 
+  pgdata:
+
+networks: 
+  utsnet:
