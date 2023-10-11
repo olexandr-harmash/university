@@ -4,7 +4,7 @@ import { ServerListener } from "./listen";
 import * as Http from 'http';
 import * as Https from 'https';
 import Morgan from 'morgan';
-import * as BodyParser from 'body-parser';
+import bodyParser, * as BodyParser from 'body-parser';
 import Express from 'express';
 import Cors from 'cors';
 import app from "../../../app";
@@ -20,9 +20,9 @@ export class Server extends BaseAbstract implements BaseInterface {
 
         // Init express
         this.express = Express();
-        this.express.use(BodyParser.json(config.bodyParser));
-        this.express.use(BodyParser.urlencoded(config.bodyParser));
         this.express.use(Cors());
+        this.express.use(BodyParser.json(this._config.bodyParser));
+        this.express.use(BodyParser.urlencoded(this._config.bodyParser));
 
         // Add morgan middleware to express
         this.express.use(
@@ -37,11 +37,7 @@ export class Server extends BaseAbstract implements BaseInterface {
     };
 
     public async init() {
-        /**
-         * for test
-         */
         this._server = await this.ServerInitializer();
-
         await this.ServerListener();
     }
 

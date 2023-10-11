@@ -17,7 +17,9 @@ export class LoginUserController extends BaseController {
             const loginUserResult = await this.loginUser.execute(req.body);
 
             if (loginUserResult.isRight()) {
-                return this.ok(res, loginUserResult.value);
+                const tokenResponce = loginUserResult.value;
+                
+                return this.ok(res, tokenResponce.getValue());
             } else {
                 const error = loginUserResult.value;
 

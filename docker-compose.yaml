@@ -22,22 +22,22 @@ services:
   
   # TODO: dev variant with nodemon
   # Сервис UI
-  ui:
-    container_name: uts-client
-    build: 
-      context: ui
-      target: production
-    ports:
-      - 3000:80
-    working_dir: /app
-    volumes:
-      - ./ui:/app
-    links:
-      - api
-    depends_on:
-      - api
-    networks:
-      - utsnet
+  # ui:
+  #   container_name: uts-client
+  #   build: 
+  #     context: ui
+  #     target: production
+  #   ports:
+  #     - 3000:80
+  #   working_dir: /app
+  #   volumes:
+  #     - ./ui:/app
+  #   links:
+  #     - api
+  #   depends_on:
+  #     - api
+  #   networks:
+  #     - utsnet
     
 
   sequelize:

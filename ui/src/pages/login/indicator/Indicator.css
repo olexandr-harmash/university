@@ -1,0 +1,46 @@
+.indicator__action {
+    display: flex;
+    height: 24px;
+    color: #888;
+    font-size: 14px;
+    align-items: center;
+    font-family: inherit;
+}
+
+.indicator__remember {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.indicator {
+    top: -5px;
+    left: 0;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background: #e6e6e6;
+}
+
+.indicator__hover-gray:hover {
+    background-color: #b4b3b3;
+}
+
+.indicator__active {
+    background-color: #38d39f;
+}
+
+.indicator__checkbox {
+    display: none;
+}
+
+.indicator__forgot {
+    text-transform: capitalize;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+.indicator__forgot:hover {
+    text-decoration: none;
+}

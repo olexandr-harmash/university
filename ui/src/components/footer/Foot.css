@@ -1,0 +1,165 @@
+.foot {
+    height: 463px;
+    color: #253d4e;
+    font-family: 'Nunito', sans-serif;
+}
+
+.foot-wrap {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 100px 0 94px 0;
+}
+
+.foot-content {
+    display: grid;
+}
+
+.foot-contact-wrap {
+    max-width: 445.41px;
+    padding-right: 104.797px;
+    margin-right: 79.454px;
+    border-right: 1px solid #ececec;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-header-wrap {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.foot-addr {
+    line-height: 1.6;
+    font-weight: 600;
+    color: #666666;
+}
+
+.foot-email-wrap {
+    margin: 25px 0 20px 0;
+    font-weight: 500;
+    color: #666666;
+}
+
+.foot-stores-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 7.5px 0;
+}
+
+.foot-stores-wrap img {
+    width: 139px;
+    height: 49px;
+}
+
+.foot-phone {
+    color: #3bb77e;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foot-help-wrap {
+    margin-top: 52px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+}
+
+.foot-help-wrap h3 {
+    width: 139.95px
+}
+
+.foot-about-wrap {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 262px;
+}
+
+.foot-list-item {
+    padding: 1px 0;
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+
+.foot-products-wrap {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 262px;
+}
+
+.foot-download-wrap {
+    max-width: 262px;
+}
+
+@media screen and (max-width: 1200px) {
+    .foot {
+        height: auto;
+    }
+
+    .foot-wrap {
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .foot {
+        height: auto;
+    }
+    .foot-wrap {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 50px;
+        justify-content: center;
+    }
+
+    .foot-contact-wrap {
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 0;
+        border-bottom: 1px solid #ececec;
+    }
+
+    .foot-help-wrap {
+        margin-bottom: 20px;
+    }
+
+    .foot-contact-wrap {
+        text-align: center;
+        align-items: center;
+    }
+
+    .foot-about-wrap {
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .foot-products-wrap {
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .foot-download-wrap {
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .foot-stores-wrap {
+        align-items: center;
+    }
+}

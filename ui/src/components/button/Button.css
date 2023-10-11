@@ -1,0 +1,35 @@
+.common {
+    background-color: #3bb77e;
+    color: #fff;
+    padding: 8px 12px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auto {
+    background-color: #3bb77e;
+    color: #fff;
+    padding: 8px 12px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: capitalize;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

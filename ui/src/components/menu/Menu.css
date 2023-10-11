@@ -1,0 +1,78 @@
+.navbot-menu {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+
+    width: 64.422px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbot-menu-text {
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.navbot-list {
+    color: #253d4e;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    z-index: 999999;
+    background-color: #fff;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+.navbot-list-back {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    z-index: 999998;
+}
+
+.navbot-elem-wrap {
+    padding: 0 22.5px;
+}
+
+.navbot-list-close-wrap {
+    height: 42px;
+    display: flex;
+    padding: 0 5px;
+}
+
+.navbot-list-close {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbot-list {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbot-list {
+        width: 250px;
+    }
+}

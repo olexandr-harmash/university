@@ -10,7 +10,10 @@ export default {
     port: 3001,
     bodyParser: {
         limit: '50mb',
-        extended: true
+        extended: true,
+        verify: (req, res, buf) => {
+            req.rawBody = buf
+        }
     },
 
     logs: {
@@ -63,5 +66,11 @@ export default {
         port: 6379,
         host: "redis",
         connection: "some"
+    },
+
+    stripe: {
+        endpointSecret: process.env.STRIPE_ENDPOINT_SECRET || 'whsec_242a1692eb286988f7a4aa9aae4179ee8cf399770b7f1212b275838b7680e5e8',
+        secret: process.env.STRIPE_SECRET || 'sk_test_51NGrkXA5h3jP6DtBdROjN5vuRge89e0SDKqxrFK36MEYzpePJ1p3VEyRxG6wV8S9NU4I3unqW82CylOqQ0FZ3ev500wQ9q0sNj',
+        apiVersion: '2023-08-16',
     }
 };

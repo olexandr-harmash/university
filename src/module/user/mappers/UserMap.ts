@@ -4,6 +4,10 @@ import { UniqueEntityID } from "../../../libs/domain/UniqueEntityID";
 import { User, UserEmail, UserName, UserPassword } from "../domain";
 
 export class UserMapper {
+    static toJwtDTO() {
+        
+    }
+
     static toDTO() {
 
     };

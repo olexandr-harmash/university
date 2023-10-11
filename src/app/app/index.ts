@@ -1,6 +1,11 @@
 import Router from "../../infra/http/router";
 import { Server } from "../../infra/http/server";
 import DomainController from "../../libs/core/DomainController";
+import { BillRepositoryImp } from "../../module/billing/repos/bill/BillRepo";
+import { BillingController } from "../../module/billing/useCases";
+import { ProductRepositoryImp } from "../../module/product/repos/product/ProductRepository";
+import { ProductController } from "../../module/product/useCases";
+import { UserRepositoryImp } from "../../module/user/repos/user/UserRepoImp";
 import { UserController } from "../../module/user/useCases";
 import { AppAbstract } from "../Base";
 
@@ -19,7 +24,14 @@ export default class App extends AppAbstract {
         try {
             this._database.sequelize.authenticate();
 
-            this.controllers.userController = new UserController(this._database);
+            const userRepo = new UserRepositoryImp(this._database.models);
+            const productRepo = new ProductRepositoryImp(this._database.models);
+            const billRepo = new BillRepositoryImp(this._database.models);
+            
+            this.controllers.userController = new UserController(userRepo);
+            this.controllers.productController = new ProductController(productRepo);
+            this.controllers.billingController = new BillingController(productRepo, billRepo);
+
             const router = new Router(this.server.express);
 
             await router.Init(this.controllers);

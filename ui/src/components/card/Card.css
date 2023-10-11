@@ -1,0 +1,75 @@
+.card {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-wrap {
+    display: flex;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-image-wrap {
+    position: relative;
+}
+
+.card-button-wrap {
+    top: 0;
+    position: absolute;
+    width: 51.5px;
+    height: 24.39px;
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+}
+
+.card-heart-wrap {
+    top: 2px;
+    left: auto;
+    right: 10px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+.card-button-text {
+    font-size: 0.857em;
+}
+
+.card-category-wrap {
+    display: flex;
+    padding: 5px 0 10px 0;
+}
+
+.card-category {
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+}
+
+.card-name-wrap {
+    display: flex;
+}
+
+.card-name {
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+}
+
+.card-price-wrap {
+    padding-top: 10px;
+    margin-top: auto;
+}
+
+.card-price {
+    font-weight: 700;
+    color: #3bb77e;
+}

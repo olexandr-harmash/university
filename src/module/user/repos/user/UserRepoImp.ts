@@ -23,6 +23,8 @@ export class UserRepositoryImp implements UserRepository {
             }
         });
 
+        if (!user) return Result.fail<User>('User not found.');
+
         return UserMapper.toDomain(user);
     };
 
@@ -34,6 +36,8 @@ export class UserRepositoryImp implements UserRepository {
                 name: userName.value
             }
         });
+
+        if (!user) return Result.fail<User>('User not found.');
 
         return UserMapper.toDomain(user);
     };

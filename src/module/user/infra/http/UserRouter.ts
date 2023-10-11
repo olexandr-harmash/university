@@ -10,7 +10,7 @@ export class UserRouter implements Route {
     }
 
     public async Rest(express: Application): Promise<void> {
-        express.post('/',
+        express.post('/user',
             (req, res) => this.controller.createUser.execute(req, res)
         );
 

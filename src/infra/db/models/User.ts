@@ -17,7 +17,7 @@ export interface UserInput extends Optional<UserAttributes, 'id'> { }
 
 export interface UserOutput extends Required<UserAttributes> { }
 
-export class User extends Model<UserOutput, UserInput> implements UserAttributes {
+export default class User extends Model<UserOutput, UserInput> implements UserAttributes {
     declare id: string;
     declare name: string;
     declare email: string;

@@ -22,7 +22,7 @@ export class CreateUserUseCase implements UseCase<CreateUserDTO, Response> {
 
     async execute(request: CreateUserDTO): Promise<Response> {
         try {
-            const userNameOrError = UserName.create(request.name);
+            const userNameOrError = UserName.create(request.username);
             const userEmailOrError = UserEmail.create(request.email);
             const userPasswordOrError = UserPassword.create(request.password);
 
@@ -44,7 +44,7 @@ export class CreateUserUseCase implements UseCase<CreateUserDTO, Response> {
 
             const userNameUsed = await this.userRepo.findByName(userName);
 
-            if (userNameUsed) {
+            if (userNameUsed.isSuccess) {
                 return left(new CreateUserErrors.NameAlreadyUsedError())
             };
 

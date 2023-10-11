@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;600&display=swap');
+
+.App {
+    height: 100%;
+}
+
+.container {
+    height: inherit;
+    max-width: 1448px;
+
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

@@ -1,0 +1,3 @@
+interface FindProductDTO {
+    category: string;
+}

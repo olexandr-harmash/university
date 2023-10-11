@@ -1,5 +1,9 @@
-import { User } from "./User";
+import User from "./User";
+import Product from "./Product";
+import Bill from "./Bill";
 
 export const models = {
-    User
+    User,
+    Product,
+    Bill
 }
